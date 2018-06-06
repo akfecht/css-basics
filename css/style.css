@@ -1,3 +1,54 @@
+/* Start of original css file*/
+
+
+body {
+  font-size: 14px;
+}
+
+nav {
+  background-color: yellow;
+  height: 100px;
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+}
+
+/*** Header styles ***/
+
+section {
+  margin: 0 auto;
+  width: 100
+  %;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+/*** h3 styles ***/
+
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+.element {
+  background-color: green;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
+}
+
+
+/*** h3 color change ***/
+
+#newcolor {background-color: blue}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -46,62 +97,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* Start of original css file*/
-
-
-body
-  font-size: 14px;
-}
-
-nav {
-  background color: yellow;
-  height: 100px;
-  margin-top: -10px;
-  position: fixed;
-  width: 100%;
-}
-
-/*** Header styles ***/
-
-section {
-  margin: 0 auto;
-  width: 100
-  %;
-}
-
-h1 {
-  font-family sans-serif;
-  font-size: 2em;
-}
-
-/*** h3 styles ***/
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
-
-h3 {
-  font-size: 1.3em;
-}
-
-.element {
-  background-color: green;
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
-}
-
-
-/*** h3 color change ***/
-
-#newcolor {background-color: blue}
-
-/*** ID usage ***/
-
-/* I know that we aren't usually supposed to use id's and that
-are primarily going to be used when we get to JS but I was having
-a hard time figuring out how to keep the other attributes of
-the .element class and change the color of the background. this
-was the best thing I could come up with*/
