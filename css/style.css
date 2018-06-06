@@ -17,8 +17,7 @@ nav {
 
 section {
   margin: 0 auto;
-  width: 100
-  %;
+  width: 100%;
 }
 
 h1 {
@@ -40,7 +39,7 @@ h3 {
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
 }
 
